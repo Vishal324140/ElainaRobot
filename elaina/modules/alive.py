@@ -27,14 +27,14 @@ from telethon import __version__ as tlhver
 from elaina import telethn as tbot
 from elaina.events import register
 
-PHOTO = "https://telegra.ph/file/7482398e772bd21a1f2bb.jpg"
+PHOTO = "https://telegra.ph/file/97db520c9f67727ac43f8.jpg"
 
 
 @register(pattern=("/alive"))
 async def awake(event):
-    TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Elaina Robot.** \n\n"
+    TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm sweety music Robot.** \n\n"
     TEXT += "💠 **I'm Working Properly** \n\n"
-    TEXT += "💠 **My Master : [Zenitsu Prjkt](https://t.me/ZenitsuPrjkt)** \n\n"
+    TEXT += "💠 **My owner : [Preet](https://t.me/Ti_amo_F_amore_mio_2912)** \n\n"
     TEXT += f"💠 **Library Version :** `{telever}` \n\n"
     TEXT += f"💠 **Telethon Version :** `{tlhver}` \n\n"
     TEXT += f"💠 **Pyrogram Version :** `{pyrover}` \n\n"

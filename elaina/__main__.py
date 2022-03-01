@@ -99,24 +99,24 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hallo [👋](https://telegra.ph/file/7482398e772bd21a1f2bb.jpg) {},
-Im Powerfull Management Bot And I Will Help In Managing Your Group.
+Hallo [👋](https://telegra.ph/file/f18e461471d5c8968f193.jpg) {},
+Im Powerfull Management Bot And I Will Help In Managing Your Group and music player.
 ┏━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┓
 × *Server Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
-× *Maintained by:* [Zenitsu Prjkt](https://t.me/ZenitsuPrjkt)
+× *Maintained by:* [Sweety](https://t.me/Ti_amo_F_amore_mio_2912)
 ┗━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┛
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="🎉 Add Me To Your Group", url="t.me/ElainaPrjktRobot?startgroup=new"
+            text="🎉 Add Me To Your Group", url="t.me/komu_music_bot?startgroup=new"
         ),
     ],
     [
         InlineKeyboardButton(text="🤖 About", callback_data="elaina_"),
-        InlineKeyboardButton(text="🛡 ️Federation", url="https://t.me/WolfOsFederation"),
+        InlineKeyboardButton(text="👑 ️owner", url="https://t.me/Ti_amo_F_amore_mio_2912"),
     ],
     [
         InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
@@ -127,7 +127,7 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-ELAINA_IMG = "https://telegra.ph/file/69f0dec8ffffa63b92f3d.jpg"
+ELAINA_IMG = "https://telegra.ph/file/f18e461471d5c8968f193.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @ZenitsuPrjkt \
@@ -405,7 +405,7 @@ def elaina_about_callback(update, context):
                         ),
                         InlineKeyboardButton(
                             text="Source Code",
-                            url="https://github.com/ZenitsuPrjkt/ElainaRobot",
+                            url="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201703/trolls-559_030117061050.jpg?size=1200:675",
                         ),
                     ],
                     [
@@ -468,7 +468,7 @@ def elaina_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Zenitsu Prjkt", url="https://github.com/ZenitsuPrjkt"
+                            text="sweety", url="https://github.com/Vishal324140"
                         ),
                     ],
                     [
